@@ -3,7 +3,7 @@ C:\Users\dania\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\d
 Размер данных: 142 образцов, 26 признаков
 
 === Оценка для метода отбора: t_test (отобрано 13 признаков) ===
-Выбранные признаки: ['har_2_d1', 'har_3_d1', 'har_4_d1', 'har_6_d1', 'har_8_d1', 'har_11_d1', 'har_12_d1', 'har_2_d5', 'har_3_d5', 'har_6_d5', 'har_8_d5', 'har_11_d5', 'har_12_d5']
+Выбранные признаки: ['har_2_d1 (index: 2)', 'har_3_d1 (index: 3)', 'har_4_d1 (index: 4)', 'har_6_d1 (index: 6)', 'har_8_d1 (index: 8)', 'har_11_d1 (index: 11)', 'har_12_d1 (index: 12)', 'har_2_d5 (index: 15)', 'har_3_d5 (index: 16)', 'har_6_d5 (index: 19)', 'har_8_d5 (index: 21)', 'har_11_d5 (index: 24)', 'har_12_d5 (index: 25)']
 
 Топ-3 модели по средней точности:
           model  avg_accuracy
@@ -24,7 +24,7 @@ KNN_4         0.934877
 KNN_6         0.889487
 
 === Оценка для метода отбора: wilcoxon (отобрано 13 признаков) ===
-Выбранные признаки: ['har_1_d1', 'har_4_d1', 'har_5_d1', 'har_7_d1', 'har_8_d1', 'har_9_d1', 'har_10_d1', 'har_11_d1', 'har_1_d5', 'har_5_d5', 'har_8_d5', 'har_10_d5', 'har_11_d5']
+Выбранные признаки: ['har_1_d1 (index: 1)', 'har_4_d1 (index: 4)', 'har_5_d1 (index: 5)', 'har_7_d1 (index: 7)', 'har_8_d1 (index: 8)', 'har_9_d1 (index: 9)', 'har_10_d1 (index: 10)', 'har_11_d1 (index: 11)', 'har_1_d5 (index: 14)', 'har_5_d5 (index: 18)', 'har_8_d5 (index: 21)', 'har_10_d5 (index: 23)', 'har_11_d5 (index: 24)']
 
 Топ-3 модели по средней точности:
              model  avg_accuracy
@@ -45,7 +45,7 @@ KNN_4         0.934895
 NuSVC         0.924350
 
 === Оценка для метода отбора: bhattacharyya (отобрано 13 признаков) ===
-Выбранные признаки: ['har_0_d1', 'har_4_d1', 'har_7_d1', 'har_8_d1', 'har_9_d1', 'har_10_d1', 'har_11_d1', 'har_0_d5', 'har_4_d5', 'har_8_d5', 'har_9_d5', 'har_10_d5', 'har_11_d5']
+Выбранные признаки: ['har_0_d1 (index: 0)', 'har_4_d1 (index: 4)', 'har_7_d1 (index: 7)', 'har_8_d1 (index: 8)', 'har_9_d1 (index: 9)', 'har_10_d1 (index: 10)', 'har_11_d1 (index: 11)', 'har_0_d5 (index: 13)', 'har_4_d5 (index: 17)', 'har_8_d5 (index: 21)', 'har_9_d5 (index: 22)', 'har_10_d5 (index: 23)', 'har_11_d5 (index: 24)']
 
 Топ-3 модели по средней точности:
           model  avg_accuracy
@@ -66,7 +66,7 @@ RandomForest_20         0.894468
           NuSVC         0.884317
 
 === Оценка для метода отбора: relative_entropy (отобрано 13 признаков) ===
-Выбранные признаки: ['har_2_d1', 'har_8_d1', 'har_11_d1', 'har_12_d1', 'har_0_d5', 'har_1_d5', 'har_2_d5', 'har_4_d5', 'har_7_d5', 'har_9_d5', 'har_10_d5', 'har_11_d5', 'har_12_d5']
+Выбранные признаки: ['har_2_d1 (index: 2)', 'har_8_d1 (index: 8)', 'har_11_d1 (index: 11)', 'har_12_d1 (index: 12)', 'har_0_d5 (index: 13)', 'har_1_d5 (index: 14)', 'har_2_d5 (index: 15)', 'har_4_d5 (index: 17)', 'har_7_d5 (index: 20)', 'har_9_d5 (index: 22)', 'har_10_d5 (index: 23)', 'har_11_d5 (index: 24)', 'har_12_d5 (index: 25)']
 
 Топ-3 модели по средней точности:
           model  avg_accuracy
@@ -87,7 +87,7 @@ RandomForest_40         0.881248
 RandomForest_30         0.898853
 
 === Оценка для метода отбора: svm_rfe (отобрано 13 признаков) ===
-Выбранные признаки: ['har_1_d1', 'har_3_d1', 'har_6_d1', 'har_7_d1', 'har_8_d1', 'har_11_d1', 'har_12_d1', 'har_1_d5', 'har_2_d5', 'har_7_d5', 'har_8_d5', 'har_11_d5', 'har_12_d5']
+Выбранные признаки: ['har_1_d1 (index: 1)', 'har_3_d1 (index: 3)', 'har_6_d1 (index: 6)', 'har_7_d1 (index: 7)', 'har_8_d1 (index: 8)', 'har_11_d1 (index: 11)', 'har_12_d1 (index: 12)', 'har_1_d5 (index: 14)', 'har_2_d5 (index: 15)', 'har_7_d5 (index: 20)', 'har_8_d5 (index: 21)', 'har_11_d5 (index: 24)', 'har_12_d5 (index: 25)']
 
 Топ-3 модели по средней точности:
           model  avg_accuracy
