@@ -1,0 +1,118 @@
+C:\Users\dania\PycharmProjects\pythonProject\.venv\Scripts\python.exe C:\Users\dania\PycharmProjects\pythonProject\medicine_ML\task2\task2_2\2.py
+Признаки Харалика успешно извлечены и сохранены в CSV файлы (по 2 для YES и NO, разделенные по d)
+Размер данных: 142 образцов, 26 признаков
+
+=== Оценка для метода отбора: t_test (отобрано 13 признаков) ===
+Выбранные признаки: ['har_2_d1', 'har_3_d1', 'har_4_d1', 'har_6_d1', 'har_8_d1', 'har_11_d1', 'har_12_d1', 'har_2_d5', 'har_3_d5', 'har_6_d5', 'har_8_d5', 'har_11_d5', 'har_12_d5']
+
+Топ-3 модели по средней точности:
+          model  avg_accuracy
+RandomForest_30      0.873084
+RandomForest_50      0.870571
+RandomForest_60      0.870571
+
+Топ-3 модели по средней чувствительности:
+          model  avg_sensitivity
+RandomForest_60         0.872647
+RandomForest_30         0.868203
+RandomForest_50         0.868203
+
+Топ-3 модели по средней специфичности:
+model  avg_specificity
+KNN_2         0.969434
+KNN_4         0.934877
+KNN_6         0.889487
+
+=== Оценка для метода отбора: wilcoxon (отобрано 13 признаков) ===
+Выбранные признаки: ['har_1_d1', 'har_4_d1', 'har_5_d1', 'har_7_d1', 'har_8_d1', 'har_9_d1', 'har_10_d1', 'har_11_d1', 'har_1_d5', 'har_5_d5', 'har_8_d5', 'har_10_d5', 'har_11_d5']
+
+Топ-3 модели по средней точности:
+             model  avg_accuracy
+LogisticRegression      0.837486
+         LinearSVC      0.816322
+             NuSVC      0.809229
+
+Топ-3 модели по средней чувствительности:
+             model  avg_sensitivity
+         LinearSVC         0.801668
+LogisticRegression         0.797223
+   RandomForest_50         0.771513
+
+Топ-3 модели по средней специфичности:
+model  avg_specificity
+KNN_2         0.939589
+KNN_4         0.934895
+NuSVC         0.924350
+
+=== Оценка для метода отбора: bhattacharyya (отобрано 13 признаков) ===
+Выбранные признаки: ['har_0_d1', 'har_4_d1', 'har_7_d1', 'har_8_d1', 'har_9_d1', 'har_10_d1', 'har_11_d1', 'har_0_d5', 'har_4_d5', 'har_8_d5', 'har_9_d5', 'har_10_d5', 'har_11_d5']
+
+Топ-3 модели по средней точности:
+          model  avg_accuracy
+      LinearSVC      0.854037
+RandomForest_50      0.818751
+RandomForest_20      0.818686
+
+Топ-3 модели по средней чувствительности:
+             model  avg_sensitivity
+         LinearSVC         0.832433
+LogisticRegression         0.771571
+   RandomForest_50         0.771400
+
+Топ-3 модели по средней специфичности:
+          model  avg_specificity
+          KNN_2         0.934669
+RandomForest_20         0.894468
+          NuSVC         0.884317
+
+=== Оценка для метода отбора: relative_entropy (отобрано 13 признаков) ===
+Выбранные признаки: ['har_2_d1', 'har_8_d1', 'har_11_d1', 'har_12_d1', 'har_0_d5', 'har_1_d5', 'har_2_d5', 'har_4_d5', 'har_7_d5', 'har_9_d5', 'har_10_d5', 'har_11_d5', 'har_12_d5']
+
+Топ-3 модели по средней точности:
+          model  avg_accuracy
+RandomForest_60      0.896282
+RandomForest_50      0.893966
+RandomForest_40      0.889155
+
+Топ-3 модели по средней чувствительности:
+          model  avg_sensitivity
+RandomForest_60         0.894250
+RandomForest_50         0.890303
+RandomForest_40         0.881248
+
+Топ-3 модели по средней специфичности:
+          model  avg_specificity
+          KNN_2         0.964482
+          KNN_4         0.934747
+RandomForest_30         0.898853
+
+=== Оценка для метода отбора: svm_rfe (отобрано 13 признаков) ===
+Выбранные признаки: ['har_1_d1', 'har_3_d1', 'har_6_d1', 'har_7_d1', 'har_8_d1', 'har_11_d1', 'har_12_d1', 'har_1_d5', 'har_2_d5', 'har_7_d5', 'har_8_d5', 'har_11_d5', 'har_12_d5']
+
+Топ-3 модели по средней точности:
+          model  avg_accuracy
+RandomForest_40      0.856599
+RandomForest_60      0.854300
+RandomForest_30      0.852034
+
+Топ-3 модели по средней чувствительности:
+          model  avg_sensitivity
+RandomForest_40         0.876814
+RandomForest_50         0.872647
+RandomForest_60         0.872647
+
+Топ-3 модели по средней специфичности:
+model  avg_specificity
+KNN_2         0.964095
+KNN_4         0.954592
+  SVC         0.894267
+
+=== Сравнение методов отбора по максимальной accuracy ===
+          method  best_accuracy
+relative_entropy       0.896282
+          t_test       0.873084
+         svm_rfe       0.856599
+   bhattacharyya       0.854037
+        wilcoxon       0.837486
+
+Process finished with exit code 0
